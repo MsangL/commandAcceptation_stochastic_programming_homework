@@ -83,7 +83,7 @@ def Integer_LShaped(data:OA_data,modelMaster):
 # Question 18
 def main_Interger_LShaped_with_callaback(data:OA_data,type_initial_cuts:int):
     """
-        type_initial_cuts indicate the type of initial cuts we use. There are two types, the one of question 18 and the one of question 19
+        type_initial_cuts indicates the type of initial cuts we use. There are two types, the one of question 18 and the one of question 19
         if type_inital_cuts==1, use initial cuts of question 18
         else use the ones of question 19
     """
