@@ -28,8 +28,6 @@ def getSecondStageCost(x,k:int,data:OA_data):
 
     if status == GRB.Status.OPTIMAL:
         return model.ObjVal,model.Runtime
-    else:
-        return 0, 0
 
 
 # Question 8
